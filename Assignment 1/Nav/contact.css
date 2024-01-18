@@ -1,0 +1,27 @@
+h1{
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    font-family: 'Peralta', serif;
+}
+nav{
+    margin-left: 200px;
+    word-spacing: 60px;
+    margin-bottom: 20px;
+}
+box1:hover{
+    background-color: brown;
+}
+body{
+    background-color: black;
+}
+
+form {
+    
+    margin: 20px auto;
+    color: aliceblue;
+}
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+}

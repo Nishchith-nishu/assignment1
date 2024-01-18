@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3, minmax(250px, 1fr));
+            grid-template-rows: 1fr 1fr 0fr;
+            padding:10px;
+            gap:10px;
+            grid-template-areas:
+             /* "header header header"
+             "sidebar  article article"
+             " footer footer footer"; */
+
+        }        
+        .item{
+            background-color:brown;
+            height: 300px;
+            padding: 20px;
+            text-align: center;
+            gap:10px;
+            position:relative;
+            top: 30px;
+           
+
+        }
+        header{
+            background-color:darkgrey;
+            text-align: center;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h2>PHOTO GALLARY PAGE</h2>
+        <h3>FRUITS</h3>
+    </header>
+    <div class="container">
+        <div class="item"><img src="https://images.unsplash.com/photo-1557800636-894a64c1696f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8fA%3D%3D"width="200px"><br>Orange</div>        <div class="item"><img src="https://images.unsplash.com/photo-1550258987-190a2d41a8ba?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D"width="180px"><br>Pineapple</div>
+        <div class="item"><img src="https://images.unsplash.com/photo-1574856344991-aaa31b6f4ce3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8fA%3D%3D"width="180px"><br>Strawbeery</div>
+        <div class="item"><IMG SRC="https://images.unsplash.com/photo-1600423115367-87ea7661688f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8OXx8fGVufDB8fHx8fA%3D%3D"width="180px"><BR>Apple</div>
+        <div class="item"><img src="https://images.unsplash.com/photo-1559181567-c3190ca9959b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTN8fHxlbnwwfHx8fHw%3D"width="180px"><br>Cheery</div>
+        <div class="item"><img src="https://images.unsplash.com/photo-1618897996318-5a901fa6ca71?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTZ8fHxlbnwwfHx8fHw%3D"width="180px"><br>Kiwi</div>
+        <!-- <div class="item">header</div>
+        <div class="item">footer</div>
+        <div class="item">div</div> -->
+    </diV>
+    
+    </div>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <style>
+        body {
+          font-family: 'Arial', sans-serif;
+          background-color: #f8f8f8;
+          margin: 0;
+          padding: 0 ;
+        }
+    
+        header {
+          background-color: #3498db;
+          color: white;
+          text-align: center;
+          padding: 20px;
+        }
+    
+        section {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          margin: 20px;
+        }
+    
+        .product {
+          background-color: white;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          margin: 10px;
+          padding: 20px;
+          border-radius: 8px;
+          width: 250px;
+          text-align: center;
+        }
+    
+        img {
+          width: 100%;
+          border-radius: 8px;
+          margin-bottom: 10px;
+        }
+    
+        h3 {
+          color: #333;
+        }
+    
+        p {
+          color: #666;
+        }
+    
+        button {
+          background-color: #3498db;
+          color: white;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+    
+        button:hover {
+          background-color: #2980b9;
+        }
+      </style>
+</head>
+<body>
+   <header>
+    <h1>Product Catalog</h1>
+  </header>
+
+  <section>
+    <div class="product">
+        <h2>furniture</h2>
+      <img src="fur.jpg" alt="Product 1">
+      <h3>product1</h3>
+      <p>PRICE:10000rs</p>
+      <button type="button">Buy Now</button>
+    </div>
+
+    <div class="product">
+        <h2>Shoes</h2>
+      <img src="shoe.jpg" alt="Product 2">
+      <h3>Product 2</h3>
+      <p>PRICE:2000</p>
+      <button type="button">Buy Now</button>
+    </div>
+
+    <div class="product">
+        <h2>T-shirt</h2>
+        <img src="t.jpg" alt="Product 3">
+        <h3>Product </h3>
+        <p>PRICE:1000</p>
+        <p>Buy One Get One</p>
+        <button type="button">Buy Now</button>
+      </div>
+
+    <!-- Add more product divs as needed -->
+  </section>
+    
+</body>
+</html>

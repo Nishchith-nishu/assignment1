@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Magazine-Style Blog</title>
+  <style>
+    
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+}
+
+main.grid-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 20px; 
+  padding: 20px;
+} 
+
+  
+
+section.main-article {
+
+  grid-column: span 2;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+article {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+body{
+    background-color: darksalmon;
+}
+.bx1{
+    display: grid;
+    grid-template-rows:repeat(1,100px);
+    grid-template-columns: 1fr,1fr,1fr;
+    gap: 10px;
+}
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Magazine-Style Blog</h1>
+  </header>
+
+  <main class="grid-container">
+    <section class="main-article">
+      <article>
+        <h2>M S Dhoni</h2>
+    <p>M.S. Dhoni (born July 7, 1981, Ranchi, Bihar [now Jharkhand] state, India) Indian cricketer whose rise to prominence in the early 21st century culminated in his captaincy of the Indian national team that won the one-day Cricket World Cup in 2011. Dhoni made his international debut in 2004.
+        </p>
+      </article>
+    </section>
+
+    <section class="secondary-articles">
+      <article>
+        <h2>VIRAT KOHLI</h2>
+        <p> INDIA FAILED to make it past the first stage of the T20 World Cup last year, it became evident that its overcautious batting was letting it down. Unlike other successful T20 teams that had evolved a sustained hell-for-leather batting approach, India, especially its top three batsmen of Rohit Sharma, KL Rahul and Virat Kohli, was continuing to stick with conservatism, aiming for scores that were respectable but never really entirely out of reach. In the arms-race of the constantly evolving T20 format, the Indian team was being left behind.</p>
+      </article>
+      <article>
+        
+        <h2>ROHITH Sharma</h2>
+        <p>Rohit Sharma has gone from being written off to a dead-on selection for Team India in 2012/13. After a solid start in 2013, where he helped India win the ICC Champions Trophy in England, he was one of the best performers in the West Indies tour. His ODI double hundred at home against Australia capped a transformational year in which he's averaged nearly 53, compared to his career average of 36. His impressive knocks earned him a Test call-up and he didn't disappoint, with back-to-back hundreds against the West Indies in Sachin's farewell series. It was somewhat poetic, since he will look to book the Little Master's now vacant #4 spot as a young Team India begins a series of tough tours overseas. His superb IPL form continued and he top scored for the Mumbai Indians, captaining his team to their first IPL title. He also guided the Mumbai Indians to their second Champions League T20 title.
+        </p>
+      </article>
+      <!-- Add more articles as needed -->
+    </section>
+    <div class="bx1">
+        <h2></h2>
+    </div>
+  </main>
+  
+    
+
+
+  
+
+  <footer>
+    <p>&copy; 2024 Magazine-Style Blog</p>
+  </footer>
+
+</body>
+</html>

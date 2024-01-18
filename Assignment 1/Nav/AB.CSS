@@ -1,0 +1,22 @@
+.nishchi{
+    margin-left: 200px;
+    word-spacing: 60px;
+    margin-bottom: 20px;
+   
+   
+}
+
+h1{
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    font-family: 'Peralta', serif;
+}
+.for{
+    color:aliceblue;
+    position:absolute;
+    top: 150px;
+    left: 250px;
+
+}
+

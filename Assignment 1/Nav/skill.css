@@ -1,0 +1,20 @@
+h1{
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    font-family: 'Peralta', serif;
+}
+nav{
+    margin-left: 200px;
+    word-spacing: 60px;
+    margin-bottom: 20px;
+}
+body{
+    background-color: black;
+}
+div{
+    color: aliceblue;
+}
+h2{
+    text-decoration: underline;
+}

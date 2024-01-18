@@ -1,0 +1,28 @@
+.nis{
+    background-color: aqua;
+    text-align: center; 
+    font-family: 'Rubik Scribble', system-ui;
+}
+body{
+    background-color: black;
+}
+h3{
+    color: aliceblue;
+}
+p{
+    color: aliceblue;
+}
+.h{
+    color:antiquewhite;
+}
+nav{
+    margin-left: 200px;
+    word-spacing: 60px;
+    margin-bottom: 20px;
+}
+h3{
+    font-style: italic;
+}
+p{
+    font-style: oblique;
+}

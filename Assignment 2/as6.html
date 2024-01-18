@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 50px ;
+            padding: 0;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color:aqua;
+          
+
+        }
+        header{
+            background-color: #fff;
+            text-align: center;
+            font-weight: bolder;
+            font-size: 80px;
+        }
+        .Overall-card{
+            display: grid;
+            grid-template-columns:repeat(3,1fr);
+            gap: 20px;
+            padding: 20px;
+            max-width: 1000px;
+            box-sizing: border-box;
+            margin-left: 50px;
+        
+        }
+        .card-structure{
+            position: relative;
+            background-color: antiquewhite;
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            cursor: pointer;
+            height: auto;
+            box-shadow: -12px 0px 10px rgb(110, 108, 108);
+        }
+            .card-structure:hover{
+            transform: scale(1.05);
+            
+        }
+        .card-image>img{
+            width: 300px;
+            height: 200px;
+            padding: 50px;
+        }
+        .content{
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+
+        }
+        .title {
+            font-size: 25px;
+            text-align: center;
+            color: #6545;
+            
+             
+        }
+       
+        .description{
+            font-size: 16px;
+            font-weight: normal;
+            color: blue;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <p>Card Grid</p>
+    </header>
+
+    <div class="Overall-card">
+        <div class="card-structure">
+            <div class="card-image">
+                <img  src="https://www.quackit.com/pix/samples/15l.jpg">
+            </div>
+            <div class="content">
+                <div class="title">Best in class</div>
+                <div class="description">
+                    Imagine jumping into that boat, and just letting it sail wherever the wind takes you...</div>
+            </div>
+            
+        </div>
+        
+        <div class="card-structure">
+            <div class="card-image"><img src="https://www.quackit.com/pix/samples/16l.jpg" alt=""></div>
+            <div class="content">
+            <div class="title">Sanity check</div>
+            <div class="description">
+                Objectively innovate empowered manufactured products whereas parallel platforms.</div>
+        </div>
+        </div>
+        <div class="card-structure">
+            <div class="card-image"><img src="https://www.quackit.com/pix/samples/24m.jpg" alt=""></div>
+            <div class="content">
+            <div class="title">Completely Synergize</div>
+            <div class="description">
+                Dramatically engage seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing.</div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
